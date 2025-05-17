@@ -14,5 +14,5 @@
 }
 
 .produto{
- animation: boomerang 2s ease-in-out infinite;
+ animation: boomerang 2s ease-in-out forwards;
 }
