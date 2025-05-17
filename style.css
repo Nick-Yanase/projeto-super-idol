@@ -63,6 +63,6 @@ p{
 }
 
 .produto{
- animation: boomerang 2s ease-in-out forwards;
+ animation: boomerang 2s ease-in-out infinite alternate;
 }
 
