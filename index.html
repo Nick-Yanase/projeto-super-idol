@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css" />
   <script src="assets/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
 <div class="Container">
@@ -14,6 +15,7 @@
   <audio id="super" src="assets/effects/credito.mp3"></audio>
   <audio id="idol" src="assets/effects/sheeeeeee.mp3"></audio>
   <audio id="chaves" src="assets/effects/super.mp3"></audio>
+  <audio id="boing" src="assets/effects/boing.mp3"></audio>
   
     <header>
       <h1 class="Titulo">我的商店</h1>
@@ -47,7 +49,7 @@
           <p>JPY 5142,67</p>
         </div>
   
-        <div class="produto">
+        <div class="produto" data-audio="boing">
           <img src="./assets/superIdol.png" alt="Produto 4">
           <h2>Produto 4</h2>
           <p>JPY 6428,97</p>
